@@ -1,27 +1,16 @@
-# Core
+# API
 fastapi==0.111.0
 uvicorn[standard]==0.30.0
 pydantic==2.7.1
-
-# Database
-# SQLite is built into Python — no extra package needed
-
+ 
+# Google Gemini
+google-genai
+ 
 # Vector Store
-chromadb==0.5.0
-
-# Google AI
-google-generativeai==0.7.2
-
-# Frontend
-streamlit==1.35.0
-Pillow
-
-# HTTP
+pinecone-client==3.2.2
+ 
+# Utils
 requests==2.32.3
-
-# Data
-pandas==2.2.2
-
-# Dev / Utils
-python-multipart==0.0.9   # for FastAPI file uploads
 python-dotenv==1.0.1
+python-multipart==0.0.9
+ 
