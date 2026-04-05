@@ -65,7 +65,7 @@ Start with your top recommendation and justify using features + price.
 
     try:
         response = client.models.generate_content(
-            model="gemini-1.5-flash",   # stable, fast, free-tier friendly
+            model="gemini-2.0-flash",   # stable, fast, free-tier friendly
             contents=prompt,
         )
         return response.text.strip()

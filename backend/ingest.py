@@ -78,7 +78,7 @@ def generate_multimodal_embedding(product: Dict[str, Any]) -> List[float]:
     if img_b64:
         try:
             response = client.models.generate_content(
-                model="gemini-1.5-flash",
+                model="gemini-2.0-flash",
                 contents=[{
                     "role": "user",
                     "parts": [

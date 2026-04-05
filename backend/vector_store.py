@@ -10,10 +10,11 @@ Setup:
   3. Copy your API key → PINECONE_API_KEY in .env
   4. pip install pinecone-client
 """
+import os
 from dotenv import load_dotenv
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), ".env"))
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), "../.env"))
-import os
+
 import json
 from typing import List, Dict, Any, Optional
 
